@@ -45,6 +45,7 @@ require('./app/routes/product.routes.js')(app);
 require('./app/routes/shop.routes.js')(app);
 require('./app/routes/order.routes.js')(app);
 require('./app/routes/user.routes.js')(app);
+require('./app/routes/provider.routes.js')(app);
 // listen for requests
 app.listen(port, () => {
     console.log("Server is listening on port "+port);
