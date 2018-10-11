@@ -26,6 +26,7 @@ exports.create = (req, res) => {
         today_status:req.body.today_status,
         provider_mobile_number:req.body.provider_mobile_number,
         available:req.body.available,
+        quantity:req.body.quantity,
         isActive:req.body.isActive     
             });
 
@@ -98,6 +99,7 @@ exports.update = (req, res) => {
         today_status:req.body.today_status,
         provider_mobile_number:req.body.provider_mobile_number,
         available:req.body.available,
+        quantity:req.body.quantity,
         isActive:req.body.isActive     
 
     }, {new: true})
